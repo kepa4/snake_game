@@ -1,6 +1,6 @@
 # snake_game
 
-This is a Snake Game clone made for the purposes of learning canvas and creating games withing the web browser with vanilla javascript
+This is a Snake Game clone made for the purposes of learning canvas and creating games within the web browser with vanilla javascript
 
 Feel free to Clone or Download the repository to use and/or learn from
 

@@ -1,11 +1,19 @@
 {
   "name": "snake_game",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a Snake Game clone made for the purposes of learning canvas and creating games within the web browser with vanilla javascript",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Keenan Pautler",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kepa4/snake_game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kepa4/snake_game/issues"
+  },
+  "homepage": "https://github.com/kepa4/snake_game#readme"
 }

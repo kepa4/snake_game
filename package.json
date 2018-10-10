@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kepa4/snake_game/issues"
   },
-  "homepage": "https://github.com/kepa4/snake_game#readme"
+  "homepage": "https://github.com/kepa4/snake_game#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }

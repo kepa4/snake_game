@@ -56,41 +56,19 @@ function snake() {
         }
     }
     
-    
-
     x += numberToAddByX;
     y += numberToAddByY;
     if (x >= 600) {
-        context.clearRect(0, 0, canvas.width, canvas.height);
-        tail = 0;
-        numberToAddByX = 0;
-        numberToAddByY = 0;
-        x = 300;
-        y = 300;
+        x = 0;
     }
     if (x <= -20) {
-        context.clearRect(0, 0, canvas.width, canvas.height);
-        numberToAddByX = 0;
-        numberToAddByY = 0;
-        tail = 0;
-        x = 300;
-        y = 300;
+        x = 600;
     }
     if (y >= 600) {
-        context.clearRect(0, 0, canvas.width, canvas.height);
-        numberToAddByX = 0;
-        numberToAddByY = 0;
-        tail = 0;
-        x = 300;
-        y = 300;
+        y = 0;
     }
     if (y <= -20) {
-        context.clearRect(0, 0, canvas.width, canvas.height);
-        tail = 0;
-        numberToAddByX = 0;
-        numberToAddByY = 0;
-        x = 300;
-        y = 300;
+        y = 600;
     }
     if (x === appleX && y === appleY) {
         tail++;
